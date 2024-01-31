@@ -37,14 +37,14 @@ needs_sphinx = "4.0"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinx.ext.autosummary",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.mathjax",
-    # "sphinx.ext.autosectionlabel",
-    "sphinx.ext.viewcode",
-    # "sphinx.ext.intersphinx",
-    "sphinx_copybutton",
-    "sphinx_design",
+  "sphinx.ext.autosummary",
+  "sphinx.ext.autodoc",
+  "sphinx.ext.mathjax",
+  # "sphinx.ext.autosectionlabel",
+  "sphinx.ext.viewcode",
+  # "sphinx.ext.intersphinx",
+  "sphinx_copybutton",
+  "sphinx_design",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -65,10 +65,10 @@ autodoc_typehints = "description"
 autoclass_content = "init"
 autodoc_inherit_docstrings = False
 autodoc_default_options = {
-    # "members": True,
-    "undoc-members": False,
-    "member-order": "bysource",
-    "show-inheritance": False,
+  # "members": True,
+  "undoc-members": False,
+  "member-order": "bysource",
+  "show-inheritance": False,
 }
 # -- Options for HTML output -------------------------------------------------
 
@@ -86,14 +86,14 @@ html_css_files = ["custom.css"]
 html_logo = "img/banner.png"
 # text_fonts = "FreightSans, Helvetica Neue, Helvetica, Arial, sans-serif"
 html_theme_options = {
-    "sidebar_hide_name": True,
-    # "page_width": "1140px",
-    # "fixed_sidebar": "true",
-    # "logo": "banner_64.png",
-    # "description_font_style": "Quicksand",
-    # "font_family": text_fonts,
-    # "caption_font_family": "Quicksand",
-    # "head_font_family": "Quicksand",
-    # "sidebar_collapse": True,
-    # "sidebar_includehidden": False,
+  "sidebar_hide_name": True,
+  # "page_width": "1140px",
+  # "fixed_sidebar": "true",
+  # "logo": "banner_64.png",
+  # "description_font_style": "Quicksand",
+  # "font_family": text_fonts,
+  # "caption_font_family": "Quicksand",
+  # "head_font_family": "Quicksand",
+  # "sidebar_collapse": True,
+  # "sidebar_includehidden": False,
 }

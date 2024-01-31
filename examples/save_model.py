@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#     https://www.apache.org/licenses/LICENSE-2.0
+#   https://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -26,13 +26,13 @@ rnn_cell = LTCCell(arch)
 
 
 model = tf.keras.models.Sequential(
-    [
-        tf.keras.Input((None, 10)),
-        tf.keras.layers.RNN(rnn_cell, return_sequences=True),
-    ]
+  [
+    tf.keras.Input((None, 10)),
+    tf.keras.layers.RNN(rnn_cell, return_sequences=True),
+  ]
 )
 model.compile(
-    optimizer=tf.keras.optimizers.Adam(0.01), loss=tf.keras.losses.MeanSquaredError()
+  optimizer=tf.keras.optimizers.Adam(0.01), loss=tf.keras.losses.MeanSquaredError()
 )
 
 model.fit(x=data_x, y=data_y, batch_size=25, epochs=20)
